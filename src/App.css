@@ -1,0 +1,98 @@
+.myCards {
+
+  padding-bottom: 30px;
+}
+.navigationBar {
+  display: flex;
+  justify-content: center;
+  background-color: #F55A5A;
+  color: white;
+}
+
+.navigation--Title {
+  font-weight: 500;
+  line-height: 17.5px;
+}
+
+.cardContainer {
+  margin-top: 50px;
+}
+
+.card {
+  display: flex;
+  position: relative;
+}
+
+.location {
+  display: flex;
+  gap: 10px;
+}
+
+
+
+.title {
+  font-weight: 700;
+  line-height: 30px;
+  color: #2B283A;
+  font-size: 25px;
+  position: absolute;
+  top: 25px;
+}
+
+.description {
+  margin-top: 65px;
+  display: flex;
+  flex-direction: column;
+}
+
+.navigationBar {
+  gap: 10px;
+}
+
+.about {
+  margin-top: 9px;
+  max-width: 500px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.date {
+  font-weight: 700;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+
+.image {
+  width: 250px;
+  height: 300px;
+  border-radius: 10px;
+  margin-right: 10px;
+}
+
+.link {
+  color: #918E9B;
+}
+
+.location--Country {
+  font-weight: 400;
+  letter-spacing: 0.17em;
+  line-height: 12px;
+}
+
+.location--URL {
+  line-height: 12px;
+  font-weight: 400;
+
+}
+
+.locationImg {
+  width: 15px;
+  height: 25px;
+  position: relative;
+  top: 7px;
+}
+
+.about-section {
+  padding: 10px;
+}
